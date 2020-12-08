@@ -6,16 +6,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import NavBar from './Component/topmenu/NavBar.js';
+import Nav from './Component/topmenu/Nav.js';
 import Header from './Component/topmenu/Header.js';
 import Login from './Component/login/Login.js';
 import Signup from './Component/signup/Signup.js';
-import Tweet from './Tweet.js';
 class App extends Component {
   render() {
     return (  
        <div>
-          {<NavBar/>}
+          {<Nav/>}
           <Router>
             <Switch>
               <Route path="/signup">

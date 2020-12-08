@@ -9,9 +9,7 @@ class Login extends Component {
         	<link rel="stylesheet" type="text/css" href="css/Login/util.css"></link>
                 <div className="container-login100">
                 <div className="wrap-login100">
-                    <div className="login100-pic js-tilt" data-tilt>
-                    <img src="assets/img/login.png" alt="IMG" />
-                    </div>
+                    
                     <form className="">
                     <span className="login100-form-title">
                         Member Login

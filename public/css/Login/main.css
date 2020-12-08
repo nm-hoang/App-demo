@@ -4,7 +4,12 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
+input#mail,button.login100-form-btn {
+  width: 17.5rem;
+}
+button.login100-form-btn {
+  margin-right: 46em;
+}
 @font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/poppins/Poppins-Regular.ttf'); 
